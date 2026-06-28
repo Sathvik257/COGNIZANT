@@ -1,6 +1,5 @@
 public class SearchAlgorithms {
 
-    // Linear Search
     public static Product linearSearch(Product[] products, int searchId) {
 
         for (Product product : products) {
@@ -12,7 +11,6 @@ public class SearchAlgorithms {
         return null;
     }
 
-    // Binary Search
     public static Product binarySearch(Product[] products, int searchId) {
 
         int left = 0;
